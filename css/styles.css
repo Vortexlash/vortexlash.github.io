@@ -1,0 +1,24 @@
+body {margin: 0; padding: 0; font-family: 'Merriweather', serif; font-size: 11pt; line-height: 16pt; padding-left: 10px; padding-right: 10px; background-color: #FFFFFA;}
+@media print {body {font-size: 10pt; line-height: 14.5pt; padding-left: 0; padding-right: 0; background-color: white;}}
+a {color: inherit;}
+
+@media screen and (min-width: 720px) {section.info {margin-top: 40px; margin-bottom: 20px;}}
+header, section {text-align: center; width: 100%; display: block; margin: auto; margin-bottom: 10pt;}
+@media print, screen and (min-width: 720px) {header, section {width: 700px;}}
+@media screen and (min-width: 720px) {header {padding-bottom: 10px;}}
+@media print {header {padding-bottom: 100px;}}
+
+header {font-family: 'Merriweather', serif;}
+header .name {display: block; width: 100%; font-size: 8vw; line-height: 1em;}
+@media print, screen and (min-width: 720px) {header .name { font-size: 31pt;}}
+header .position {padding-top: 10px; font-size: 15pt; font-weight: bold; text-transform: uppercase; color: #777777;}
+
+#tagcloud a{white-space:nowrap; text-decoration:none; color:#666; font-size:.75em; line-height:1.4em; padding:2px 4px; margin:5px 5px 5px 0}
+#tagcloud a:hover{background:#cfcfcf ;color:#fff}
+#tagcloud a.cloud_0{font-size:.75em; color:#999}
+#tagcloud a.cloud_1{font-size:.95em}
+#tagcloud a.cloud_2{font-size:1em}
+#tagcloud a.cloud_3{font-size:1.1em}
+#tagcloud a.cloud_4{font-size:1.1em; font-weight:bold}
+#tagcloud a.cloud_5{font-size:1.2em}
+#tagcloud a.cloud_6{font-size:1.3em; color:#0085b9}
