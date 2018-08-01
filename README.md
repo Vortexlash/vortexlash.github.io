@@ -3,3 +3,4 @@ Web-site for publishing resume and portfolio placement. Supports mobile devices 
 
 > _Change log:_<br/>
 _— 31 June'18 — Passed HTML and CSS validation._
+_— 01 Aug'18 — Added .ltx source materials._
