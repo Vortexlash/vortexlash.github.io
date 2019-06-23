@@ -1,82 +1,89 @@
-\documentclass[margin, 10pt]{res} 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[english, russian]{babel}
-\setlength{\textwidth}{5.1in}
+\documentclass[11pt]{article}
+\usepackage{geometry}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\pagestyle{empty}
+\geometry{margin=0.5in}
+\setlength\parindent{9pt}
+\setlist{nosep}
+\renewcommand\labelitemi{--}
+\newcommand{\name}[1]{\begin{center}\section*{\huge #1}\end{center}}
+\newcommand{\topinfo}[1]{\begin{center}\vspace{-0.2cm}#1\vspace{-0.2cm}\end{center}}
+\newcommand{\resumesection}[1]{\vspace{-0.2cm}\section*{#1}\vspace{-0.2cm}\hrule\vspace{0.2cm}}
+
+
 
 \begin{document}
 
-% HEADER
+\name{Alexandra V. Korobenkova}
+\topinfo{www.linkedin.com/in/vortexlash}
+\topinfo{vortexlash@gmail.com}
+\topinfo{t.me/vortexlash}
 
-\moveleft.5\hoffset\centerline{\large\bf ALEXANDRA V. KOROBENKOVA}
-\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
- 
-\moveleft.5\hoffset\centerline{Moscow, Russia}
-\moveleft.5\hoffset\centerline{vortexlash@gmail.com}
-\moveleft.5\hoffset\centerline{t.me/vortexlash}
+\resumesection{Education}
 
-\begin{resume}
-
-% BODY
-
-\section{PROJECT \\ SKILLS}  
+\textbf{MTI (MOSTECH)}, Moscow Technological Institute \hfill Feb'16--Jan'17
 
 \begin{itemize}
-\item Small teams of programmers and designers management
-\item Code review and optimisation
-\end{itemize} 
-
-\section{TECHNOLOGY \\ SKILLS} 
-
-{\sl Main development tools:} Python, HTML, JavaScript, CSS, Lua \\
-{\sl Preferable programming language:} Python \\
- 
-\section{EXPERIENCE}
-
-{\sl Software developer, Jr.} \hfill Dec'17 — present \\
-Heisen.me
-\begin{itemize}
-\item Creating a Telegram bot api with python-telegram-bot
-\item Creating a CV/portfolio website
-\item Cross-browser testing
-\item Minor programming
+	\item Crisis management, M-learning
 \end{itemize}
 
-{\sl Scripter} \hfill Jan'18 — present \\
-GamingOnSteroids.com
+\resumesection{Skills}
+\textbf{Tools \& Frameworks}
 \begin{itemize}
-\item Developing utility software for online games
-\end{itemize}  
-
-{\sl Mod translator} \hfill Jul'18 — present \\
-XCOMrades.ru
+	\item Unity3D, Lua, Python, PyGame, JSON, Git
+\end{itemize}
+\textbf{Concepts}
 \begin{itemize}
-\item Steam Workshop mods translating
-\end{itemize}  
-
-\section{EDUCATION}
-Moscow Technological Institute (MosTech) \hfill Feb'16 — Jan'17 \\
-Distance learning program
-
-CERTIFICATIONS \hfill Bioinformatics Institute Certification\\
+	\item Enviroment design \& worldbuilding, AI configuration
+	\item Professional experience with visual scripting tools
+    \item Professional experience in PvE combat design
+\end{itemize}
+\textbf{Languages}
 \begin{itemize}
-\item Python programming
-\item Introduction to statistics
+	\item Russian, English.
 \end{itemize}
 
-\section{LANGUAGES}
+\resumesection{Professional Summary}
+\textbf{Enplex Games}, Junior Game Designer \hfill Dec'18--present
 \begin{itemize}
-\item Russian (Native)
-\item English (Advanced)
-\item German (Basic)
+	\item Gameplay scripting for PvE encounters
+	\item Maintaining project game design documents and game mechanics
+	\item Currently working on feauture updates \& creatures design pipeline
 \end{itemize}
 
-% FOOTER
+\textbf{Enplex Games}, QA Engineer \hfill Sep'18--Dec'18
+\begin{itemize}
+    \item Test plan execution (regression, smoke, exploratory feature)
+	\item Providing play testing, de-bugging \& quality assurance
+\end{itemize}
 
-\section{DECLARATION}{\sl I hereby declare that all the information provided above are true and would be responsible for any untoward discrepancy.}
+\resumesection{Extracurricular Activity}
+\textbf{XCOMrades}, Mod Developer \hfill Feb'18--Aug'18
+\begin{itemize}
+	\item Contributing to the development of several game mods \& russian localisation
+\end{itemize}
 
-\section{REFERENCES}
-References are available on request
+\textbf{GamingOnSteroids}, Scripts Developer \hfill Feb'18--Aug'18
+\begin{itemize}
+	\item Developing several scripts that imitate user actions with high performance in game 
+	\item Contributed to development of various utility scripts such as Evade, Lane-Clear, etc.
+\end{itemize}
 
-\end{resume}
+\textbf{Heisen}, Software Engineer Intern \hfill Jan'18--Sep'18
+\begin{itemize}
+	\item Creating a Telegram bot api with python-telegram-bot wrapper
+	\item Creating a CV/portfolio website
+	\item Cross-browser testing
+\end{itemize}
+
+\textbf{Real Universe}, Game Developer \& QA Trainee \hfill Jan'16--Sep'17
+\begin{itemize}
+    \item Creating storyline, quests and in-game dialogue
+	\item Developing ideas for gameplay throughout the player life-cycle
+\end{itemize}
+
+\resumesection{References}
+\textbf All references are available on request
+
 \end{document}
